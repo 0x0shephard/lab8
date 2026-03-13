@@ -18,9 +18,9 @@ public class CustomList {
      * Checks if the list contains a specific city.
      * Implementation relies on City.equals()
      */
-    public boolean hasCity(City city) {
-        return cities.contains(city);
-    }
+//    public boolean hasCity(City city) {
+//        return cities.contains(city);
+//    }
 
     public int countCities() {
         return cities.size();
