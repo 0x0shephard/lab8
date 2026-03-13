@@ -1,7 +1,9 @@
-package com.example.lab08;
+@Test
+public void testHasCity() {
+    CustomList list = new CustomList();
+    City calgary = new City("Calgary", "AB");
+    list.addCity(calgary);
 
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
-public class CustomListTest {
-
+    // Now this will compile and pass!
+    assertTrue(list.hasCity(calgary));
 }
